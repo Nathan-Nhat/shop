@@ -1,0 +1,29 @@
+.bh-1st-container {
+    background-color: #f6f6f8;
+    color: #878787;
+    padding: 0.5em 1em;
+}
+.bh-1st-contact{
+    display: flex;
+}
+.bh-1st-icon-phone {
+    font-size: 1.2em;
+}
+.bh-1st-phone {
+    font-size: 0.9em;
+}
+.bh-1st-element1 {
+    text-align: left;
+}
+.bh-1st-element2 {
+    text-align: center;
+}
+.bh-1st-element3 {
+    text-align: right;
+}
+
+@media screen and (max-width: 959px){
+    .bh-1st-element1, .bh-1st-element2, .bh-1st-element3 {
+        text-align: center;
+    }
+}

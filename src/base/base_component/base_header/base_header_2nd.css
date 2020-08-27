@@ -1,0 +1,25 @@
+.bh-2nd-ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.bh-2nd-ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 1.3em;
+}
+
+.bh-2nd-right {
+    text-align: right;
+}
+.bh-2nd-right > span {
+    margin: 0 1em;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px){
+    .bh-2nd-right > span {
+        margin: 0 0.3em;
+    }
+}
